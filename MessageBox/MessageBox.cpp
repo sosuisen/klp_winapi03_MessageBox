@@ -4,10 +4,7 @@
 int APIENTRY wWinMain(HINSTANCE hInstance,
 	HINSTANCE hPrevInstance, LPWSTR lpCmdLine, int nCmdShow)
 {
-	MSGBOXPARAMS mbp;
-
-	// 構造体をゼロクリア
-	ZeroMemory(&mbp, sizeof mbp);
+	MSGBOXPARAMS mbp = { 0 };
 
 	// 構造体に属性を設定
 	mbp.cbSize = sizeof mbp;
