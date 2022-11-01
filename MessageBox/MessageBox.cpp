@@ -31,7 +31,7 @@ int APIENTRY wWinMain(HINSTANCE hInstance,
 	mbp.lpszText = buf;
 	*/
 
-	mbp.dwStyle = MB_OK | MB_ICONASTERISK;
+	// mbp.dwStyle = MB_OK | MB_ICONASTERISK;
 	mbp.dwStyle = MB_CANCELTRYCONTINUE | MB_ICONQUESTION;
 
 	// メッセージボックスを表示
